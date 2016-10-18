@@ -1,0 +1,9 @@
+cd 在linux下是进入某一文件夹的操作。当你看到CD的时候，我是在找我的目录，即要上传代码的目录。所以一直找到W_IMsg这个目录下时，算是找到了自己要上传的代码；
+
+然后touch README.md。这命令是添加一个文件。文件名叫：README.md;
+
+然后: git  init ：这时初始化一个仓库。 成功后会有下面的提示：Initialized empty Git repository in d:.......
+
+然后：git add README.md 。这里是添加README这个文件；
+
+然后 git add .  ：要注意后面的点。这里是添加整个目录，也可以像git add README.md一样。添加单个文件
